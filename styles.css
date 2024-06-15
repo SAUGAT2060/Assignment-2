@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.poster {
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.poster img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    opacity: 1;
+    
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: auto;
+    margin-left:auto;
+}
+ h2 {
+    margin-bottom:20px;
+}
+p {
+    margin-left:auto;
+}
+h1 {
+    font-size: 6em;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8em;
+    color: #3498db;
+}
+.credits, .quote, .release-date {
+    font-size: 1.2em;
+}
+.quote {
+    font-style: italic;
+}
+.links {
+    margin-top: 20px;
+}
+.links a {
+    color: #fff;
+    text-decoration: underline;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
